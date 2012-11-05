@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiasExperiment.cs">
+    <Files>
+      <File FileName="SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiasExperiment.cs" Line="276" Column="6" />
+      <File FileName="SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiasEvaluator.cs" Line="55" Column="1" />
+      <File FileName="SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiaserIO.cs" Line="145" Column="3" />
+      <File FileName="SharpNeatLib/Network/NetworkDefinition.cs" Line="122" Column="38" />
+      <File FileName="SharpNeatLib/Decoders/HyperNeat/Substrate.cs" Line="338" Column="1" />
+      <File FileName="SharpNeatLib/Decoders/HyperNeat/HyperNeatDecoder.cs" Line="92" Column="1" />
+      <File FileName="SharpNeatLib/Core/SerialGenomeListEvaluator.cs" Line="149" Column="1" />
+      <File FileName="SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiasDefinitions.cs" Line="27" Column="50" />
+      <File FileName="SharpNeatConsole/Program.cs" Line="153" Column="75" />
+      <File FileName="SharpNeatGUI/MainForm.cs" Line="103" Column="4" />
+      <File FileName="SharpNeatGUI/Program.cs" Line="22" Column="23" />
+      <File FileName="SharpNeatGUI/MainForm.Designer.cs" Line="38" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/kingcharles/Code/DeepHyperNEAT/hyperNEAT/SharpNeatV2/src/SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiasEvaluator.cs" line="79" />
+      <Breakpoint file="/home/kingcharles/Code/DeepHyperNEAT/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Network/NetworkDefinition.cs" line="272" />
+      <Breakpoint file="/home/kingcharles/Code/DeepHyperNEAT/hyperNEAT/SharpNeatV2/src/SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiaserIO.cs" line="205" />
+      <Breakpoint file="/home/kingcharles/Code/DeepHyperNEAT/hyperNEAT/SharpNeatV2/src/SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiaserIO.cs" line="201" />
+      <Breakpoint file="/home/kingcharles/Code/DeepHyperNEAT/hyperNEAT/SharpNeatV2/src/SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiaserIO.cs" line="330" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

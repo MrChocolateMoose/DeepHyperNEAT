@@ -1,8 +1,0 @@
-import numpy as np
-
-a = np.empty([28,25])
-a[:] = 0.5
-#np.savetxt("../inputs.csv", np.random.uniform(size=(28,25)) * 0.5, delimiter=";")
-np.savetxt("../inputs.csv",a, delimiter=";")
-np.savetxt("../rng.csv", np.random.uniform(size=(784,1000)), delimiter=";")
-np.savetxt("../optimal.csv", np.random.uniform(size=(784,1000)), delimiter=";")
