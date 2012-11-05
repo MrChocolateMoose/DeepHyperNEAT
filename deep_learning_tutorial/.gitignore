@@ -1,6 +1,0 @@
-code/*.pyc
-data/mnist.pkl.gz
-html
-*.pyc
-*~
-*.swp

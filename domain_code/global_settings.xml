@@ -1,0 +1,22 @@
+<Settings>
+
+    <!-- Biasing Strategy has two possible integer values:
+         0: This option biases the initial starting matrix of the DBN.
+         1: This option augments the results of the unsupervised output matrix. -->
+    <Setting Name="biasing_strategy">0</Setting>
+
+    <!-- If we're multithreading we will expect the Thread_ID to be passed as a command line argument and
+         all of our output files will have unique names using timestamps plus thread ID's
+         0: False
+         1: True -->
+    <Setting Name="is_multi_threading">1</Setting>
+
+    <!-- Hidden Layer Size. For now don't change this. It's not what you think. -->
+    <Setting Name="hidden_layer_size">1000,1000,1000</Setting>
+
+    <!-- Use Reduced Dataset? This will speed things up but we will not get state of the art results.
+         0: False
+         1: True -->
+    <Setting Name="use_reduced_dataset">1</Setting>
+
+</Settings>
