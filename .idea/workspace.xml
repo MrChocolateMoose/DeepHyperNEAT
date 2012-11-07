@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b0e3942-0128-4ccd-80c9-bd7140459f2f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/.hgignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/README.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/DBN.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/SdA.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/cA.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/convolutional_mlp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/dA.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/logistic_cg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/logistic_sgd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/mcrbm/hmc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/mcrbm/mcrbm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/mcrbm/test_hmc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/mcrbm/test_mcrbm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/mlp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/rbm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/data/download.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/data/training_colorpatches_16x16_demo.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/.templates/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/DBN.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/SdA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/conf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/contents.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/dA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/deep.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/gettingstarted.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/hmc.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/3wolfmoon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/3wolfmoon_output.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/DBN3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/bm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/cnn_explained.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/conv_1D_nn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/filters_at_epoch_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/filters_corruption_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/filters_corruption_30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/markov_chain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mlp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mnist_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mnist_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mnist_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mnist_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mnist_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mnist_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mylenet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/rbm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/samples.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/sparse_1D_nn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/intro.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/lenet.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/logreg.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/mcrbm.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/mlp.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/rbm.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/references.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/scripts/docgen.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/utilities.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/issues_closed/2_RBM_cost_fn.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/issues_open/1_SdA_performance.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/issues_open/3_RBM_scan_GPU.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/issues_open/4_RBM_scan.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/issues_open/5_results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/issues_open/6_benchmarking_pybrain.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/misc/do_nightly_build" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mnist_partitioner/dataset_partioner.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
+    <ignored path="DeepHyperNEAT.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DeepHyperNEAT" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DBN.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deep_learning/code/DBN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="394" column="55" selection-start="15373" selection-end="15373" vertical-scroll-proportion="3.683712">
+              <folding>
+                <element signature="e#8#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test1.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deep_learning/code/test1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="60" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global_settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain_code/global_settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="21" selection-start="2842" selection-end="2842" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generate_files.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain_code/generate_files.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="0" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/deep_learning_tutorial/code/mlp.py" />
+        <option value="$PROJECT_DIR$/DomainCode/SHARED_GLOBAL_DEFINITIONS.py" />
+        <option value="$PROJECT_DIR$/deep_learning_tutorial/code/rbm.py" />
+        <option value="$PROJECT_DIR$/DomainCode/global_settings.txt" />
+        <option value="$PROJECT_DIR$/DomainCode/global_settings_reader.py" />
+        <option value="$PROJECT_DIR$/deep_learning_tutorial/code/DBN.py" />
+        <option value="$PROJECT_DIR$/deep_learning/code/rbm.py" />
+        <option value="$PROJECT_DIR$/DomainCode/global_settings.xml" />
+        <option value="$PROJECT_DIR$/DomainCode/global_settings.py" />
+        <option value="$PROJECT_DIR$/domain_code/dataset_partioner.py" />
+        <option value="$PROJECT_DIR$/deep_learning/code/logistic_sgd.py" />
+        <option value="$PROJECT_DIR$/deep_learning/code/mlp.py" />
+        <option value="$PROJECT_DIR$/domain_code/generate_files.py" />
+        <option value="$PROJECT_DIR$/deep_learning/code/test1.py" />
+        <option value="$PROJECT_DIR$/domain_code/global_settings.py" />
+        <option value="$PROJECT_DIR$/deep_learning/code/DBN.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1537" />
+    <option name="height" value="905" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepHyperNEAT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepHyperNEAT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepHyperNEAT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepHyperNEAT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepHyperNEAT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deep_learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepHyperNEAT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeepHyperNEAT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deep_learning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.editor" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mnist_partitioner" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.DBN">
+    <configuration default="false" name="dataset_partioner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/domain_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="DeepHyperNEAT" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/domain_code/dataset_partioner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="generate_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/domain_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="DeepHyperNEAT" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/domain_code/generate_files.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_learning/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="DeepHyperNEAT" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning/code/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="global_settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/domain_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="DeepHyperNEAT" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/domain_code/global_settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DBN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deep_learning/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="DeepHyperNEAT" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_learning/code/DBN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="DeepHyperNEAT" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="DeepHyperNEAT" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="DeepHyperNEAT" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.dataset_partioner" />
+      <item index="1" class="java.lang.String" itemvalue="Python.generate_files" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.global_settings" />
+      <item index="4" class="java.lang.String" itemvalue="Python.DBN" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b0e3942-0128-4ccd-80c9-bd7140459f2f" name="Default" comment="" />
+      <created>1348426532177</created>
+      <updated>1348426532177</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-4" width="1537" height="905" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24983165" sideWeight="0.36870027" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24444444" sideWeight="0.77851456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37931034" sideWeight="0.46801347" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24983165" sideWeight="0.46816975" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2214854" sideWeight="0.5373737" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23035952" sideWeight="0.45791245" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.48686868" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/deep_learning_tutorial/code/DBN.py</url>
+          <line>303</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/mnist_partitioner/csv_read_test.py</url>
+          <line>9</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/mnist_partitioner/csv_read_test.py</url>
+          <line>30</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/deep_learning_tutorial/code/DBN.py</url>
+          <line>95</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/deep_learning_tutorial/code/DBN.py</url>
+          <line>97</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/deep_learning_tutorial/code/rbm.py</url>
+          <line>406</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/deep_learning_tutorial/code/rbm.py</url>
+          <line>69</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/deep_learning/code/rbm.py</url>
+          <line>69</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/deep_learning/code/rbm.py</url>
+          <line>63</line>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/cA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="25" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.27355072" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain_code/dataset_partioner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="0" selection-start="4626" selection-end="4626" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/dist-packages/numpy/lib/_datasource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="478" column="0" selection-start="15306" selection-end="15306" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/logistic_cg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="1824" selection-end="1824" vertical-scroll-proportion="-3.8064516" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/SdA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="27" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-7.225806" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/logistic_sgd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1189" selection-end="1632" vertical-scroll-proportion="-3.8709676" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/theano/tensor/opt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2002" column="0" selection-start="78266" selection-end="78266" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/rbm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="0" selection-start="3810" selection-end="3810" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#299#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/theano/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="0" selection-start="9099" selection-end="9099" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/mlp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="0" selection-start="4527" selection-end="4527" vertical-scroll-proportion="0.26103646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/dist-packages/scipy/interpolate/fitpack2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="717" column="0" selection-start="26267" selection-end="26267" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="60" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain_code/global_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="21" selection-start="2842" selection-end="2842" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain_code/generate_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/DBN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="394" column="55" selection-start="15373" selection-end="15373" vertical-scroll-proportion="3.683712">
+          <folding>
+            <element signature="e#8#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
