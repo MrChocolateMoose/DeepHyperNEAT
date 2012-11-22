@@ -24,7 +24,7 @@ from pylab import *
 
 class RBM(object):
     """Restricted Boltzmann Machine (RBM)  """
-    def __init__(self, input=None, n_visible=784, n_hidden=500, \
+    def __init__(self, input=None, n_visible=784, n_hidden=500,
         W=None, hbias=None, vbias=None, numpy_rng=None,
         theano_rng=None):
         """

@@ -107,11 +107,11 @@ namespace SharpNeat.Domains.DeepBeliefNetworkBiaser
             
             _neatGenomeParams = new NeatGenomeParameters()
             {
-                AddConnectionMutationProbability = 0.80,
-                DeleteConnectionMutationProbability = 0.50,
-                ConnectionWeightMutationProbability = 0.80,
-                AddNodeMutationProbability = 0.70,
-                InitialInterconnectionsProportion = 0.80
+                AddConnectionMutationProbability = 0.10,
+                DeleteConnectionMutationProbability = 0.10,
+                ConnectionWeightMutationProbability = 0.90,
+                AddNodeMutationProbability = 0.05,
+                InitialInterconnectionsProportion = 0.10
             };
 			
 			// Clear OUTPUT and FITNESS directories before starting
@@ -230,28 +230,40 @@ namespace SharpNeat.Domains.DeepBeliefNetworkBiaser
         public IGenomeDecoder<NeatGenome, IBlackBox> CreateGenomeDecoder(bool lengthCppnInput)
         {
             // Create two layer sandwhich substract substrate. Inputs on bottom of cube and Outputs are on the top.
-            SubstrateNodeSet inputLayer = new SubstrateNodeSet(Constants.INPUT_AND_OUTPUT_SIZE);
-            SubstrateNodeSet outputLayer = new SubstrateNodeSet(Constants.INPUT_AND_OUTPUT_SIZE);
+            SubstrateNodeSet inputLayer = new SubstrateNodeSet(Constants.INPUT_SIZE);
+            SubstrateNodeSet outputLayer = new SubstrateNodeSet(Constants.OUTPUT_SIZE);
 
-            for (uint height = 0; height < Constants.INPUT_AND_OUTPUT_HEIGHT; height++)
+            for (uint height = 0; height < Constants.INPUT_HEIGHT; height++)
             {
-                for (uint width = 0; width < Constants.INPUT_AND_OUTPUT_WIDTH; width++)
+                for (uint width = 0; width < Constants.INPUT_WIDTH; width++)
                 {
                     // start with 1 because of the bias node is 0
-                    uint inputID = (height * Constants.INPUT_AND_OUTPUT_WIDTH) + width + 1;
-                    // start with INPUT_AND_OUTPUT_SIZE + 1 because id's need to be unique
-                    uint outputID = Constants.INPUT_AND_OUTPUT_SIZE + (height * Constants.INPUT_AND_OUTPUT_WIDTH) + width + 1;
+                    uint inputID = (height * Constants.INPUT_WIDTH) + width + 1;
 
                     // Get X and Y positions on the hypercube.
-                    double posX = -1.0 + ((width * 1.0D / Constants.INPUT_AND_OUTPUT_WIDTH)  * 2);
-                    double posY = -1.0 + ((height * 1.0D / Constants.INPUT_AND_OUTPUT_HEIGHT) * 2);
+                    double posX = -1.0 + ((width * 1.0D / Constants.INPUT_WIDTH)  * 2);
+                    double posY = -1.0 + ((height * 1.0D / Constants.INPUT_HEIGHT) * 2);
 
-                    // Add nodes to layers
+                    // Add nodes to inputs
                     inputLayer.NodeList.Add(new SubstrateNode(inputID, new double[] { posX, posY, -1.0 }));
+                }
+            }
+			for (uint height = 0; height < Constants.OUTPUT_HEIGHT; height++)
+            {
+                for (uint width = 0; width < Constants.OUTPUT_WIDTH; width++)
+                {
+                    // start with INPUT_SIZE + 1 because id's need to be unique
+                    uint outputID = Constants.INPUT_SIZE + (height * Constants.OUTPUT_WIDTH) + width + 1;
+
+                    // Get X and Y positions on the hypercube.
+                    double posX = -1.0 + ((width * 1.0D / Constants.OUTPUT_WIDTH)  * 2);
+                    double posY = -1.0 + ((height * 1.0D / Constants.OUTPUT_HEIGHT) * 2);
+
+                    // Add nodes to ouputs
                     outputLayer.NodeList.Add(new SubstrateNode(outputID, new double[] { posX, posY, 1.0 }));
                 }
             }
-
+			
             List<SubstrateNodeSet> nodeSetList = new List<SubstrateNodeSet>(2);
             nodeSetList.Add(inputLayer);
             nodeSetList.Add(outputLayer);
@@ -272,10 +284,10 @@ namespace SharpNeat.Domains.DeepBeliefNetworkBiaser
         {
             List<ActivationFunctionInfo> fnList = new List<ActivationFunctionInfo>(4);
             
-            fnList.Add(new ActivationFunctionInfo(0, 0.10, Gaussian.__DefaultInstance));
-            fnList.Add(new ActivationFunctionInfo(1, 0.70, Sine.__DefaultInstance));
-            fnList.Add(new ActivationFunctionInfo(2, 0.10, Linear.__DefaultInstance));
-            fnList.Add(new ActivationFunctionInfo(3, 0.10, BipolarSigmoid.__DefaultInstance));
+            fnList.Add(new ActivationFunctionInfo(0, 0.20, Gaussian.__DefaultInstance));
+            fnList.Add(new ActivationFunctionInfo(1, 0.40, Sine.__DefaultInstance));
+            fnList.Add(new ActivationFunctionInfo(2, 0.20, Linear.__DefaultInstance));
+            fnList.Add(new ActivationFunctionInfo(3, 0.20, BipolarSigmoid.__DefaultInstance));
 
             return new DefaultActivationFunctionLibrary(fnList);
         }

@@ -1,3 +1,4 @@
+using SharpNeat.Network;
 /* ***************************************************************************
  * This file is part of SharpNEAT - Evolution of Neural Networks.
  * 
@@ -32,7 +33,7 @@ namespace SharpNeat.Phenomes
     /// Black box is a technical term for a device or system or object when it is viewed primarily in terms 
     /// of its input and output characteristics. Almost anything might occasionally be referred to as a black box -
     /// a transistor, an algorithm, humans, the Internet.
-    /// </summary>
+    /// </summary>:
     public interface IBlackBox
     {
         /// <summary>

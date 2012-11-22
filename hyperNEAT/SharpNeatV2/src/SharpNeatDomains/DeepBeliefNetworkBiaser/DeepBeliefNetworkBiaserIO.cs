@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
+using SharpNeat.Phenomes.NeuralNets;
 
 namespace SharpNeat.Domains.DeepBeliefNetworkBiaser
 {
@@ -21,19 +22,6 @@ namespace SharpNeat.Domains.DeepBeliefNetworkBiaser
 
     public static class DeepBeliefNetworkBiaserIO
     {
-        static DeepBeliefNetworkBiaserIO()
-        {
-            //InputMatrix = ReadInputMatrix();
-			
-			InputMatrix = new List<double>();
-			for (int i = 0; i < Constants.INPUT_AND_OUTPUT_SIZE; i++)
-			{
-				InputMatrix.Add(0.5);
-			}
-        }
-
-        public static List<double> InputMatrix { get; private set; }
-
 		/*
 		/// <summary>
         /// Read in our fixed matrix which will be our inputs. We do this once.  We're more concerned about evolving a network.
@@ -68,28 +56,28 @@ namespace SharpNeat.Domains.DeepBeliefNetworkBiaser
         /// We evolved something in HyperNEAT. We need to send it over to python to visualize it and use it in the DBN. We pass it by
         /// csv file
         /// </summary>
-        public static void WriteOutputMatrix(double[] outputMatrix, int width, int height)
+        public static void WriteOutputMatrix(FastConnection[] connectionList, int width, int height)
         {
 			StringBuilder csvBuilder = new StringBuilder();
-			for (int y = 0; y < height; y++)
+			for (int x = 0; x < width; x++)
 			{
-				for (int x = 0; x < width; x++)
+				for (int y = 0; y < height; y++)
 				{
-					int matrixIndex = y * width + x;
+					int matrixIndex = x * height + y;
                     
-					csvBuilder.Append(outputMatrix[matrixIndex]);
+					csvBuilder.Append(connectionList[matrixIndex]._weight);
 					
-					if (matrixIndex == outputMatrix.Length - 1)
+					if (matrixIndex == connectionList.Length - 1)
 					{
 					}
                     // Else write a semi-colon to delimit the number
-                    else if (x != width - 1)
+                    else if (y != height - 1)
                     {
                         csvBuilder.Append(';');
                     }
 				}
 				
-				if (y * width + (width - 1) != outputMatrix.Length - 1)
+				if (x * height + (height - 1) != connectionList.Length - 1)
 				{
 					csvBuilder.Append('\n');
 				}

@@ -2,77 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b0e3942-0128-4ccd-80c9-bd7140459f2f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/.hgignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/README.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/DBN.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/SdA.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/cA.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/convolutional_mlp.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/dA.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/logistic_cg.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/logistic_sgd.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/mcrbm/hmc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/mcrbm/mcrbm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/mcrbm/test_hmc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/mcrbm/test_mcrbm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/mlp.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/rbm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/code/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/data/download.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/data/training_colorpatches_16x16_demo.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/.templates/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/DBN.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/SdA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/conf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/contents.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/dA.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/deep.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/gettingstarted.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/hmc.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/3wolfmoon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/3wolfmoon_output.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/DBN3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/bm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/cnn_explained.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/conv_1D_nn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/filters_at_epoch_14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/filters_corruption_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/filters_corruption_30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/markov_chain.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mlp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mnist_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mnist_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mnist_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mnist_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mnist_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mnist_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/mylenet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/rbm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/samples.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/images/sparse_1D_nn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/intro.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/lenet.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/logreg.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/mcrbm.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/mlp.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/rbm.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/references.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/scripts/docgen.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/doc/utilities.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/issues_closed/2_RBM_cost_fn.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/issues_open/1_SdA_performance.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/issues_open/3_RBM_scan_GPU.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/issues_open/4_RBM_scan.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/issues_open/5_results.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/issues_open/6_benchmarking_pybrain.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deep_learning_tutorial/misc/do_nightly_build" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mnist_partitioner/dataset_partioner.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/SharpNeatLib.pidb" afterPath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/SharpNeatLib.pidb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deep_learning/code/DBN.py" afterPath="$PROJECT_DIR$/deep_learning/code/DBN.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deep_learning/code/rbm.py" afterPath="$PROJECT_DIR$/deep_learning/code/rbm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiasDefinitions.cs" afterPath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiasDefinitions.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiasEvaluator.cs" afterPath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiasEvaluator.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiasExperiment.cs" afterPath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiasExperiment.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiaserIO.cs" afterPath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatDomains/DeepBeliefNetworkBiaser/DeepBeliefNetworkBiaserIO.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Core/IPhenomeEvaluator.cs" afterPath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Core/IPhenomeEvaluator.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Core/ParallelGenomeListEvaluator.cs" afterPath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Core/ParallelGenomeListEvaluator.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Core/SerialGenomeListEvaluator.cs" afterPath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Core/SerialGenomeListEvaluator.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Decoders/HyperNeat/Substrate.cs" afterPath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Decoders/HyperNeat/Substrate.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Phenomes/IBlackBox.cs" afterPath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Phenomes/IBlackBox.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Phenomes/NeuralNets/CyclicNetwork/CyclicNetwork.cs" afterPath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Phenomes/NeuralNets/CyclicNetwork/CyclicNetwork.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Phenomes/NeuralNets/FastCyclicNetwork/FastCyclicNetwork.cs" afterPath="$PROJECT_DIR$/hyperNEAT/SharpNeatV2/src/SharpNeatLib/Phenomes/NeuralNets/FastCyclicNetwork/FastCyclicNetwork.cs" />
     </list>
     <ignored path="DeepHyperNEAT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,10 +40,55 @@
       <file leaf-file-name="DBN.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deep_learning/code/DBN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="394" column="55" selection-start="15373" selection-end="15373" vertical-scroll-proportion="3.683712">
+            <state line="401" column="5" selection-start="15545" selection-end="15545" vertical-scroll-proportion="0.4228457">
               <folding>
                 <element signature="e#8#22#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mlp.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deep_learning/code/mlp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="263" column="23" selection-start="9212" selection-end="9212" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SdA.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deep_learning/code/SdA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="329" column="22" selection-start="13816" selection-end="13816" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logistic_sgd.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deep_learning/code/logistic_sgd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="341" column="35" selection-start="13302" selection-end="13305" vertical-scroll-proportion="-5.612903">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convolutional_mlp.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deep_learning/code/convolutional_mlp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="199" column="41" selection-start="7991" selection-end="7991" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cA.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deep_learning/code/cA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="256" column="16" selection-start="10320" selection-end="10320" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,6 +120,17 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="rbm.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deep_learning/code/rbm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="411" column="38" selection-start="17437" selection-end="17437" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#299#313#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -151,7 +150,6 @@
         <option value="$PROJECT_DIR$/DomainCode/global_settings.txt" />
         <option value="$PROJECT_DIR$/DomainCode/global_settings_reader.py" />
         <option value="$PROJECT_DIR$/deep_learning_tutorial/code/DBN.py" />
-        <option value="$PROJECT_DIR$/deep_learning/code/rbm.py" />
         <option value="$PROJECT_DIR$/DomainCode/global_settings.xml" />
         <option value="$PROJECT_DIR$/DomainCode/global_settings.py" />
         <option value="$PROJECT_DIR$/domain_code/dataset_partioner.py" />
@@ -160,15 +158,16 @@
         <option value="$PROJECT_DIR$/domain_code/generate_files.py" />
         <option value="$PROJECT_DIR$/deep_learning/code/test1.py" />
         <option value="$PROJECT_DIR$/domain_code/global_settings.py" />
+        <option value="$PROJECT_DIR$/deep_learning/code/rbm.py" />
         <option value="$PROJECT_DIR$/deep_learning/code/DBN.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1537" />
-    <option name="height" value="905" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1535" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -263,10 +262,10 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.editor" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -481,23 +480,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1537" height="905" extended-state="7" />
+    <frame x="65" y="24" width="1535" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.47878787" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24983165" sideWeight="0.36870027" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24444444" sideWeight="0.77851456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848485" sideWeight="0.77055705" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37931034" sideWeight="0.46801347" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24983165" sideWeight="0.46816975" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2214854" sideWeight="0.5373737" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23035952" sideWeight="0.45791245" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22944297" sideWeight="0.54276097" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22944297" sideWeight="0.45252526" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.48686868" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -597,16 +596,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/deep_learning/code/cA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="25" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.27355072" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain_code/dataset_partioner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="0" selection-start="4626" selection-end="4626" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python2.7/dist-packages/numpy/lib/_datasource.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="478" column="0" selection-start="15306" selection-end="15306" vertical-scroll-proportion="0.0" />
@@ -617,38 +606,14 @@
         <state line="66" column="0" selection-start="1824" selection-end="1824" vertical-scroll-proportion="-3.8064516" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning/code/SdA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-7.225806" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning/code/logistic_sgd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1189" selection-end="1632" vertical-scroll-proportion="-3.8709676" />
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/theano/tensor/opt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2002" column="0" selection-start="78266" selection-end="78266" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning/code/rbm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="0" selection-start="3810" selection-end="3810" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#299#313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/theano/configparser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="237" column="0" selection-start="9099" selection-end="9099" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deep_learning/code/mlp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="0" selection-start="4527" selection-end="4527" vertical-scroll-proportion="0.26103646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deep_learning/code/test.py">
@@ -676,9 +641,53 @@
         <state line="54" column="0" selection-start="1869" selection-end="1869" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/logistic_sgd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="341" column="35" selection-start="13302" selection-end="13305" vertical-scroll-proportion="-5.612903">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/convolutional_mlp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="41" selection-start="7991" selection-end="7991" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/cA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="256" column="16" selection-start="10320" selection-end="10320" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/mlp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="263" column="23" selection-start="9212" selection-end="9212" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/SdA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="329" column="22" selection-start="13816" selection-end="13816" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deep_learning/code/rbm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="411" column="38" selection-start="17437" selection-end="17437" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#299#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/deep_learning/code/DBN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="394" column="55" selection-start="15373" selection-end="15373" vertical-scroll-proportion="3.683712">
+        <state line="401" column="5" selection-start="15545" selection-end="15545" vertical-scroll-proportion="0.4228457">
           <folding>
             <element signature="e#8#22#0" expanded="true" />
           </folding>

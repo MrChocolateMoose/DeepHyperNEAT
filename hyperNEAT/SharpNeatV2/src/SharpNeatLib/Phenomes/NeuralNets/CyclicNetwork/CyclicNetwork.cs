@@ -41,7 +41,8 @@ namespace SharpNeat.Phenomes.NeuralNets
     public class CyclicNetwork : IBlackBox
     {
         protected readonly List<Neuron> _neuronList;
-        protected readonly List<Connection> _connectionList;
+        // MCS: protected->public: need weights.
+		public readonly List<Connection> _connectionList;
         
         // For efficiency we store the number of input and output neurons.
         protected readonly int _inputNeuronCount;

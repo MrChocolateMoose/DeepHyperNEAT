@@ -1,3 +1,4 @@
+using SharpNeat.Network;
 /* ***************************************************************************
  * This file is part of SharpNEAT - Evolution of Neural Networks.
  * 
@@ -39,7 +40,7 @@ namespace SharpNeat.Core
         /// <summary>
         /// Evaluate the provided phenome and return its fitness score.
         /// </summary>
-        FitnessInfo Evaluate(TPhenome phenome);
+		FitnessInfo Evaluate(TPhenome phenome);
 
         /// <summary>
         /// Reset the internal state of the evaluation scheme if any exists.

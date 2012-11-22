@@ -59,8 +59,10 @@ namespace SharpNeat.Phenomes.NeuralNets
     /// </summary>
     public class FastCyclicNetwork : IBlackBox
     {
-        protected readonly FastConnection[] _connectionArray;
-        protected readonly IActivationFunction[] _neuronActivationFnArray;
+        // MCS: protected->public: need weights.
+		public readonly FastConnection[] _connectionArray;
+        
+		protected readonly IActivationFunction[] _neuronActivationFnArray;
         protected readonly double[][] _neuronAuxArgsArray;
 
         // Neuron pre- and post-activation signal arrays.
@@ -168,6 +170,14 @@ namespace SharpNeat.Phenomes.NeuralNets
         /// </summary>
         public virtual void Activate()
         {
+			
+			// MSC:
+			bool no_final_activation = false;
+			
+			// MSC:
+			if (_connectionArray.Length > 1000)
+				no_final_activation =true;
+				
             // Activate the network for a fixed number of timesteps.
             for(int i=0; i<_timestepsPerActivation; i++)
             {
@@ -185,14 +195,21 @@ namespace SharpNeat.Phenomes.NeuralNets
                 // post-activation values and are never activated. 
                 for(int j=_inputAndBiasNeuronCount; j<_preActivationArray.Length; j++)
                 {
-                    if (_preActivationArray.Any((d) => d != 0))
-                    {
-                        string a = "", b = "";
-                        var c = a + b;
-                    }
-
-                    _postActivationArray[j] = _neuronActivationFnArray[j].Calculate(_preActivationArray[j], _neuronAuxArgsArray[j]);
-                    
+					// MCS:
+                    //if (_preActivationArray.Any((d) => d != 0))
+                    //{
+                    //    string a = "", b = "";
+                    //    var c = a + b;
+                    //}
+					
+					if (no_final_activation)
+					{
+						_postActivationArray[j] = _preActivationArray[j];
+					}
+					else
+					{
+                    	_postActivationArray[j] = _neuronActivationFnArray[j].Calculate(_preActivationArray[j], _neuronAuxArgsArray[j]);
+					}
                     // Take the opportunity to reset the pre-activation signal array in preperation for the next 
                     // activation loop.
                     _preActivationArray[j] = 0.0F;

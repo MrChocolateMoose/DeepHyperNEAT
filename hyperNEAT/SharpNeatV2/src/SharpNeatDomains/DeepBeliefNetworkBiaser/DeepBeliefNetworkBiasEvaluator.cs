@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Threading;
+using SharpNeat.Phenomes.NeuralNets;
 
 namespace SharpNeat.Domains.DeepBeliefNetworkBiaser
 {
@@ -42,27 +43,12 @@ namespace SharpNeat.Domains.DeepBeliefNetworkBiaser
         {
            EvaluationCount++;
             
-            // show the network the fixed input to sample a 2D portion of the 4D space. 
-            for (int i = 0; i < Constants.INPUT_AND_OUTPUT_SIZE; i++)
-            {
-                box.InputSignalArray[i] = DeepBeliefNetworkBiaserIO.InputMatrix[i];
-            }
-            
-            // activate network which outputs the new random weight layer
-            box.ResetState();
-            box.Activate();
-            if (!box.IsStateValid)
-            {
-                return new FitnessInfo(0,0);
-            }
-
-            // Retrieve outputs of the network. 
-            double[] outputMatrix = new double[Constants.INPUT_AND_OUTPUT_SIZE];
-            box.OutputSignalArray.CopyTo(outputMatrix, 0);
-            // Write them out to a file. 
-            DeepBeliefNetworkBiaserIO.WriteOutputMatrix(outputMatrix, 
-			                                            Constants.INPUT_AND_OUTPUT_WIDTH,
-			                                            Constants.INPUT_AND_OUTPUT_HEIGHT);
+			FastCyclicNetwork network = box as FastCyclicNetwork;
+			
+			// Write them out to a file. 
+            DeepBeliefNetworkBiaserIO.WriteOutputMatrix(network._connectionArray, 
+			                                            Constants.INPUT_SIZE + 1,
+			                                            Constants.OUTPUT_SIZE);
             
             // Run the python DBN script which will output 
             DeepBeliefNetworkBiaserIO.RunPythonScriptMultithreaded();

@@ -259,18 +259,20 @@ namespace SharpNeat.Decoders.HyperNeat
                 double weight = outputSignalArr[0];
 
                 // Skip connections with a weight magnitude less than _weightThreshold.
-                double weightAbs = Math.Abs(weight);
-                if(weightAbs > _weightThreshold)
+               double weightAbs = Math.Abs(weight);
+                // MCS:
+				//if(weightAbs > _weightThreshold)
                 {
                     // For weights over the threshold we re-scale into the range [-_maxWeight,_maxWeight],
                     // assuming IBlackBox outputs are in the range [-1,1].
                     double newWeight = (weightAbs - _weightThreshold) * _weightRescalingCoeff * Math.Sign(weight);
-
-                    if (newWeight > 0.0)
-                    {
-                        string a = "", b = "";
-                        var c = a + b;
-                    }
+					
+					// MCS:
+                    //if (newWeight > 0.0)
+                    //{
+                    //    string a = "", b = "";
+                    //    var c = a + b;
+                    //}
 
                     weight = newWeight;
 
@@ -311,7 +313,8 @@ namespace SharpNeat.Decoders.HyperNeat
 
                     // Skip connections with a weight magnitude less than _weightThreshold.
                     double weightAbs = Math.Abs(weight);
-                    if(weightAbs > _weightThreshold)
+                    // MCS:
+					//if(weightAbs > _weightThreshold)
                     {
                         // For weights over the threshold we re-scale into the range [-_maxWeight,_maxWeight],
                         // assuming IBlackBox outputs are in the range [-1,1].
