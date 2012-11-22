@@ -353,8 +353,12 @@ def test_DBN(finetune_lr=0.1, pretraining_epochs= 8,#100,
         hyperneat_output_row = hyperneat_output_matrix.shape[0]
         hyperneat_output_col = hyperneat_output_matrix.shape[1]
 
+        assert (hyperneat_output_row == 784)
+        assert (hyperneat_output_col == 1000)
+
         '''
         Specify size of the first layer's weight matrix
+        '''
         '''
         first_layer_input_row = 784
         first_layer_input_col = 1000
@@ -369,7 +373,7 @@ def test_DBN(finetune_lr=0.1, pretraining_epochs= 8,#100,
         interpolatedMatrix = interpolate.RectBivariateSpline(x,y,z, kx=2,ky=2)
 
         hyperneat_output_matrix_interp = interpolatedMatrix(xx,yy)
-
+        '''
 
 
         '''
@@ -392,7 +396,8 @@ def test_DBN(finetune_lr=0.1, pretraining_epochs= 8,#100,
 
         # If we're biasing the first layer.
         if str(global_settings.BIASING_STRATEGY_SETTING) == str(global_settings.BIAS_INITIAL_MATRIX_TYPE):
-            augmented = (hyperneat_output_matrix_interp)
+            #augmented = (hyperneat_output_matrix_interp)
+            augmented = hyperneat_output_matrix
 
             # ADD BIAS TO FIRST LAYER!
             dbn.rbm_layers[0].W.set_value(augmented, borrow=True)
@@ -460,7 +465,6 @@ def test_DBN(finetune_lr=0.1, pretraining_epochs= 8,#100,
         if fig_needs_to_be_closed == True:
             savefig(pdf, format='pdf')
 
-
     # We just want to see what it looks like after pretraining, we're not augmenting it
     if str(global_settings.BIASING_STRATEGY_SETTING) == str(global_settings.BIAS_INITIAL_MATRIX_TYPE):
         fig = figure()
@@ -499,7 +503,6 @@ def test_DBN(finetune_lr=0.1, pretraining_epochs= 8,#100,
             fontweight='bold')
         imshow(dbn.rbm_layers[0].W.get_value(borrow=True), cmap='winter')
     savefig(pdf, format='pdf')
-
 
     end_time = time.clock()
     print >> sys.stderr, ('The pretraining code for file ' +
